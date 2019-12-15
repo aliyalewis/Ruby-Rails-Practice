@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :passwords
   resources :accounts
   resources :users
   resources :books
